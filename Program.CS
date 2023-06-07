@@ -121,4 +121,4 @@ for(int i = 1; i <= count; i++)
     len = len + 2;
     Console.WriteLine();
 }
-Console.ReadLine();
+
