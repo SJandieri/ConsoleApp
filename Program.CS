@@ -101,3 +101,24 @@
 //    }
 //    else a = false;
 //}
+//4
+int spc, len = 1, count;
+Console.WriteLine("Enter Row Number : ");
+count = Convert.ToInt32(Console.ReadLine());
+spc = count - 1;
+
+for(int i = 1; i <= count; i++)
+{
+    for(int j=1; j <= spc; j++)
+    {
+        Console.Write(" ");
+    }
+    for(int s=1; s<=len; s++)
+    { 
+        Console.Write("*"); 
+    }
+    spc--;
+    len = len + 2;
+    Console.WriteLine();
+}
+Console.ReadLine();
